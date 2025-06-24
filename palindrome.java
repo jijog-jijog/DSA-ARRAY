@@ -15,6 +15,7 @@ public class palindrome {
             val = val/10;
             str = (str*10 + rev);
         }
+        
         System.out.println(str);
         if (chk == str) {
             System.out.print("The given number is palindrome");
